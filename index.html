@@ -519,37 +519,45 @@
                 grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
             }
         }
+
         .modal-body {
-        padding: 20px;
-        text-align: center;
-    }
-    
-    .calendar-icon {
-        font-size: 4rem;
-        margin: 20px 0;
-        animation: bounce 2s infinite;
-    }
-    
-    .countdown-small {
-        display: flex;
-        justify-content: center;
-        margin: 25px 0;
-    }
-    
-    .countdown-small .countdown-item {
-        width: 80px;
-        padding: 15px;
-        background: rgba(255, 255, 255, 0.2);
-    }
-    
-    .countdown-small .countdown-number {
-        font-size: 1.8rem;
-    }
-    
-    @keyframes bounce {
-        0%, 100% { transform: translateY(0); }
-        50% { transform: translateY(-10px); }
-    }
+            padding: 20px;
+            text-align: center;
+        }
+
+        .calendar-icon {
+            font-size: 4rem;
+            margin: 20px 0;
+            animation: bounce 2s infinite;
+        }
+
+        .countdown-small {
+            display: flex;
+            justify-content: center;
+            margin: 25px 0;
+        }
+
+        .countdown-small .countdown-item {
+            width: 80px;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        .countdown-small .countdown-number {
+            font-size: 1.8rem;
+        }
+
+        @keyframes bounce {
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-10px);
+            }
+        }
     </style>
 </head>
 
@@ -629,7 +637,7 @@
                 <h3>Un regalo especial para ti</h3>
                 <p>Hemos preparado algo muy especial para ti. Una sorpresa llena de amor y agradecimiento por todo lo
                     que significas para nosotros.</p>
-                <button class="btn" id="giftBtn"><a href="regalo.html" class="back-home">Ver sorpresa</a></button>
+                <button class="btn" id="giftBtn">¡Descubre tu sorpresa!</button>
             </div>
         </div>
     </section>
